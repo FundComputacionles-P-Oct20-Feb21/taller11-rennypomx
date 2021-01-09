@@ -1,0 +1,43 @@
+Miniespecificacion------------------
+
+1. Inicio
+2. funcion principal()
+3.     nota1, d[0,n]
+4.     nota2, d[0,n]
+5.     nota3, d[0,n]
+6.     nota4, d[0,n]
+7.     notaCualitativa, x(20)[{a-z}, {A-Z}, {BS}]
+8.     Escribir "Ingresar nota 1: "
+9.       Leer nota1
+10.    Escribir "Ingresar nota 2: "
+11.      Leer nota2
+12.    Escribir "Ingresar nota 3: "
+13.      Leer nota3
+14.    Escribir "Ingresar nota 4: "
+15.      Leer nota4
+16.    notaCualitativa <-- obtenerPromedio(nota1, nota2, nota3, nota4)
+17.    Escribir "El promedio de las notas: " + nota1 + ", " + nota2 + ", "+ nota3 + ", " +         nota4 + " es " + notaCualitativa
+18. fin funcion principal
+
+// Funcion obtener Promedio
+
+19. función obtenerPromedio(a, d; b, d; c, d;d, d) : x
+20.     promedio, d[0-n]
+21.     promedioCualitativo, x(20)[{a-z}, {A-Z}, {BS}]
+22.     promedio <-- (a + b + c + d) / 4
+23.     Si ((promedio >= 0) and (promedio <= 5)) Entonces
+24.         promedioCualitativo <-- "Regular"
+25.     De lo contrario
+26.         Si ((promedio >= 5.1) and (promedio <= 8)) Entonces
+27.             promedioCualitativo <-- "Bueno"
+28.         De lo Contrario
+29.             Si ((promedio >= 8.1) and (promedio <= 9)) Entonces
+30.                 promedioCualitativo <-- "Muy bueno"
+31.             De lo contrtario
+32.                 Si ((promedio >= 9.1) and (promedio <= 10)) Entonces
+33.                     promedioCualitativo <-- "Sobresaliente"
+34.                 Fin Si
+35.     Fin Si
+36.     return promedioCualitativo
+37. fin funcion obtenerPromedio
+38. Fin

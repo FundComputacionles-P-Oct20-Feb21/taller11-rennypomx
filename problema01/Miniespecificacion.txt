@@ -1,0 +1,58 @@
+Miniespecificación------------------------
+
+1.Inicio
+2.funcion principal()
+3.opcion, i[0-n]
+4.Escribir "Ingrese el numero:"
+5.Escribir "1. Si desea calcular el area de un cuadrado"
+6.Escribir "2. Si desea calcular el area de un Triangulo"
+7.Escribir "3. Si desea calcular el area de un Rectangulo"
+8. Leer opcion
+9.     	Si opcion == 1 Entonces
+10.			areaCuadrado()
+11.	    Sino
+12.		Si opcion == 2 Entonces
+13.				areaTriangulo()
+14.		Sino
+15.		   Si opcion == 3 Entonces
+16.					areaRectangulo()
+17.			Sino 
+18.			   Escribir "No esta entre las opciones a escoger"
+19.		     Fin si
+20.		   Fin si
+21.		Fin si
+22. fin funcion principal
+23.
+24.	funcion areaCuadrado() 
+25.		lado, d[0-n]
+26.		area, d[0-n]
+27. 	Escribir "Cual es el lado del cuadrado"
+28.		Leer lado
+29.		area <-- lado * lado 
+30.		Escribir "El area del cuadrado es: " +area
+31.	fin funcion areaTriangulo 
+32.
+33. funcion areaTriangulo()
+34.		altura, d[0-n]
+35.		area, d[0-n]
+36.		base, d[0-n]
+37.		Escribir "Cual es la base del triangulo"
+38.		Leer base
+39.		Escribir "Cual es la altura del triangulo"
+40.		Leer altura
+41.		area <-- (base x altura)/2
+42.		Escribir "El area del triangulo es: " +area
+43. fin funcion areaTriangulo 
+44. 
+45. funcion areaRectangulo ()
+46.		altura, d[0-n]
+47.		area, d[0-n]
+48.		base, d[0-n]
+49.		Escribir "Cual es la base del Rectangulo"
+50.		Leer base
+51.		Escribir "Cual es la altura del Rectangulo"
+52.		Leer altura
+53.		area <-- base x altura
+54.		Escribir "El area del Rectangulo es: " +area
+55. fin funcion areaRectangulo
+56. Fin
